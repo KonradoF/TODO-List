@@ -1,0 +1,25 @@
+{
+  "preset": "react-native",
+  "collectCoverage": true,
+  "modulePaths": [
+    "<rootDir>"
+  ],
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
+  "transform": {
+    "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+  },
+  "setupFilesAfterEnv": [
+    "<rootDir>setupTests.js",
+    "<rootDir>/node_modules/react-native-gesture-handler/jestSetup.js"
+  ],
+  "transformIgnorePatterns": [
+    "node_modules/(?!(jest-)?react-native)"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/jest"
+  ]
+}

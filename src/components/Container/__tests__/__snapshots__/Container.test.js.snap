@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Rendering should match to snapshot  - shouldSafeAreaView && keyboardAvoidingView 1`] = `
+<Form>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "marginHorizontal": 50,
+      }
+    }
+  />
+</Form>
+`;
+
+exports[`Container Rendering should match to snapshot - keyboardAvoidingView 1`] = `
+<Form>
+  <ForwardRef(SafeAreaView)
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "marginHorizontal": 50,
+      }
+    }
+  />
+</Form>
+`;
+
+exports[`Container Rendering should match to snapshot - noSafeAreaView 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginHorizontal": 50,
+    }
+  }
+/>
+`;
+
+exports[`Container Rendering should match to snapshot 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginHorizontal": 50,
+    }
+  }
+/>
+`;

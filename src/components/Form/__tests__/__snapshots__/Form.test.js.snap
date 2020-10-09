@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Rendering should match to snapshot 1`] = `
+<KeyboardAvoidingView
+  behavior="padding"
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  enabled={true}
+  keyboardVerticalOffset={0}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "flex": 1,
+    }
+  }
+/>
+`;

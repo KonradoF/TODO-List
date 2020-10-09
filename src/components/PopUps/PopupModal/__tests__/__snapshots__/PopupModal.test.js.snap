@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopupModal Rendering should match to snapshot 1`] = `
+<Component
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={true}
+  visible={true}
+>
+  <View
+    onTouchStart={[MockFunction]}
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.5)",
+        "flex": 1,
+      }
+    }
+  />
+  <ForwardRef(SafeAreaView)
+    style={
+      Object {
+        "flex": 0.5,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "backgroundColor": "#ffffff",
+          "justifyContent": "space-between",
+          "paddingBottom": 40,
+          "paddingHorizontal": "5%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "width": "100%",
+          }
+        }
+      />
+      <ForwardRef(Themed.Button)
+        buttonStyle={
+          Object {
+            "backgroundColor": "#979797",
+            "paddingBottom": 20,
+            "paddingTop": 20,
+          }
+        }
+        containerStyle={
+          Object {
+            "height": 120,
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+        onPress={[MockFunction]}
+        title="Close"
+      />
+    </View>
+  </ForwardRef(SafeAreaView)>
+</Component>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper Rendering should match to snapshot 1`] = `
+<ScrollView
+  bounces={false}
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "paddingBottom": 20,
+    }
+  }
+  showsVerticalScrollIndicator={false}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "paddingHorizontal": 48,
+    }
+  }
+/>
+`;
+
+exports[`Wrapper Rendering should match to snapshot no scroll  1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "paddingHorizontal": 48,
+    }
+  }
+/>
+`;
+
+exports[`Wrapper Rendering should match to snapshot spacing top  1`] = `
+<ScrollView
+  bounces={false}
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "paddingBottom": 20,
+      "paddingTop": 32,
+    }
+  }
+  showsVerticalScrollIndicator={false}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "paddingHorizontal": 48,
+    }
+  }
+/>
+`;

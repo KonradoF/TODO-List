@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Rendering should match to snapshot - secondary 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#ffffff"
+  hidesWhenStopped={true}
+  size="large"
+/>
+`;
+
+exports[`Loader Rendering should match to snapshot 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#F36A08"
+  hidesWhenStopped={true}
+  size="large"
+/>
+`;
